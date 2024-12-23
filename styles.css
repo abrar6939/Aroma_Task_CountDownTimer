@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* White text */
+}
+
+.timer-container {
+    text-align: center;
+    background: #1e1e1e; /* Darker container */
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #ffffff; /* White text */
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 16px;
+    color: #ffffff; /* White text */
+    margin-right: 5px;
+}
+
+input {
+    padding: 5px;
+    font-size: 14px;
+    margin: 5px;
+    width: 50px;
+    text-align: center;
+    border: 1px solid #cccccc; /* Light border */
+    border-radius: 5px;
+    background-color: #333333; /* Dark input background */
+    color: #ffffff; /* White text */
+}
+
+input:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ffffff; /* White text */
+    background-color: #007bff; /* Blue button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.hidden {
+    display: none;
+}
+
+#timerDisplay {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff; /* White text */
+    margin-top: 20px;
+}
